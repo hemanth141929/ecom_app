@@ -65,7 +65,6 @@ const AdminProducts = () => {
         setProducts(response.data)
       }
     } catch {
-      console.error("Error Fetching Data !")
     } finally {
       setLoading(false)
     }
